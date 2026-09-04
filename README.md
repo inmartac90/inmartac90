@@ -1,16 +1,32 @@
-## Hi there 👋
+# Hi, I'm Indra Martínez 👋
 
-<!--
-**inmartac90/inmartac90** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Cloud & Observability professional focused on reliable infrastructure, AWS, and the systems that help teams see and understand what is happening in production.
 
-Here are some ideas to get you started:
+I’m a former AWS Cloud Support Engineer and an **LogicMonitor Certified Professional (LMCP)**. I enjoy turning cloud concepts into practical projects and continuously building my infrastructure and automation skills.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm focused on
+
+- ☁️ AWS, cloud infrastructure, and operational troubleshooting
+- 📈 Observability with LogicMonitor: monitoring, visibility, and actionable insights
+- ⚙️ Infrastructure, automation, CI/CD, and hands-on learning
+- 🌱 Currently preparing for AWS Certified Solutions Architect – Associate and AWS Certified Cloud Practitioner
+
+## Featured projects
+
+- [Cloud Engineer Portfolio](https://github.com/inmartac90/cvweb) — static portfolio hosted on AWS S3 and deployed with GitHub Actions
+- [CI/CD Lab](https://github.com/inmartac90/cicd-lab) — experiments and practice with delivery workflows
+- [HR Chatbot](https://github.com/inmartac90/chatbot25) — an early chatbot project
+
+## Find me online
+
+- [Portfolio](http://mys3hinmartac.s3-website-us-east-1.amazonaws.com)
+- [LinkedIn](https://www.linkedin.com/in/indramartineza/)
+- [Linktree](https://linktr.ee/inmartac)
+
+## Beyond the terminal
+
+When I’m away from cloud dashboards, I enjoy games and Pokémon. 🎮⚡
+
+---
+
+*Learning, building, testing, repeating.*
