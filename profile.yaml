@@ -4,68 +4,47 @@ title: Cloud & Cybersecurity Professional
 location: Mexico City
 bio: Former AWS Cloud Support Engineer, LogicMonitor Certified Professional (LMCP), and Cybersecurity student at UVM
 
-# Tech Stack
+# Tech Stack - Organized by Category
 skills:
-  - name: AWS
-    badge: https://img.shields.io/badge/AWS-FF9900?logo=amazon-aws&logoColor=white
-  - name: Linux
-    badge: https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black
-  - name: Python
-    badge: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white
-  - name: Git
-    badge: https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white
-  - name: Cybersecurity
-    badge: https://img.shields.io/badge/Cybersecurity-important?color=red
-
-# Certification Roadmap
-certifications:
-  - name: AWS Certified Cloud Practitioner
-    completed: false
-    progress: 75
-    link: https://aws.amazon.com/certification/certified-cloud-practitioner/
-  - name: AWS Certified Solutions Architect – Associate
-    completed: false
-    progress: 30
-    link: https://aws.amazon.com/certification/certified-solutions-architect-associate/
-  - name: AWS Certified SysOps Administrator – Associate
-    completed: false
-    progress: 0
-    link: https://aws.amazon.com/certification/certified-sysops-administrator-associate/
-  - name: AWS Certified AI Practitioner
-    completed: false
-    progress: 10
-    link: https://aws.amazon.com/certification/certified-ai-practitioner/
-
-# Featured Projects
-projects:
-  cloud:
-    - name: Cloud Engineer Portfolio
-      url: https://github.com/inmartac90/cvweb
-      desc: Static portfolio hosted on AWS S3, deployed with GitHub Actions
+  - category: Cloud & Infrastructure
+    items:
+      - AWS (EC2, VPC, IAM, CloudWatch, RDS)
+      - Linux
+      - Windows Server
+      - Docker
+      - Kubernetes
   
-  cicd:
-    - name: CI/CD Lab
-      url: https://github.com/inmartac90/cicd-lab
-      desc: Experiments and practice with delivery workflows
+  - category: Observability & Monitoring
+    items:
+      - LogicMonitor
+      - CloudWatch
+      - Dashboards
+      - Alerting
+      - Log Analysis
   
-  other:
-    - name: HR Chatbot
-      url: https://github.com/inmartac90/chatbot25
-      desc: Early chatbot project exploring automation
-
-# Focus Areas
-focus:
-  - "☁️ AWS & Cloud Infrastructure — Operational troubleshooting, Infrastructure as Code"
-  - "📈 Observability — LogicMonitor, monitoring, and actionable insights"
-  - "⚙️ DevOps & Automation — CI/CD pipelines, GitHub Actions, IaC"
-  - "🔐 Cybersecurity — Building security skills for cloud environments"
-  - "🌱 Continuous Learning — AWS certifications and hands-on projects"
+  - category: Automation & DevOps
+    items:
+      - Terraform
+      - GitHub Actions
+      - Bash
+      - Python
+      - AWS CLI
+  
+  - category: Troubleshooting & Support
+    items:
+      - Root-Cause Analysis
+      - Incident Response
+      - SNMP
+      - WMI/WinRM
+      - ServiceNow
+      - Jira
 
 # Social Links
 socials:
-  portfolio: http://mys3hinmartac.s3-website-us-east-1.amazonaws.com
+  portfolio: https://cvweb-nextjs.vercel.app
   linkedin: https://www.linkedin.com/in/indramartineza/
   linktree: https://linktr.ee/inmartac
 
 # Personal interests
 interests: "🎮 Games and Pokémon ⚡"
+philosophy: "Learning, building, testing, repeating."
