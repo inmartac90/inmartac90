@@ -16,7 +16,7 @@ TECH_BADGES = {
     'Dashboards': '![Dashboards](https://img.shields.io/badge/Dashboards-4285F4?style=flat)',
     'Alerting': '![Alerting](https://img.shields.io/badge/Alerting-FF6B6B?style=flat)',
     'Log Analysis': '![Logs](https://img.shields.io/badge/Log%20Analysis-FFA500?style=flat)',
-    'Terraform': '![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)',
+    'Terraform': '![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white)',
     'GitHub Actions': '![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white)',
     'Bash': '![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)',
     'Python': '![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)',
@@ -102,8 +102,12 @@ readme += f"""
  
 - 🌍 [Portfolio]({profile['socials']['portfolio']})
 - 💼 [LinkedIn]({profile['socials']['linkedin']})
-- 🔗 [Linktree]({profile['socials']['linktree']})
- 
+"""
+if profile['socials'].get('email'):
+    readme += f"- ✉️ [{profile['socials']['email']}](mailto:{profile['socials']['email']})\n"
+if profile['socials'].get('linktree'):
+    readme += f"- 🔗 [Linktree]({profile['socials']['linktree']})\n"
+readme += f""" 
 ---
  
 ## 🎮 Beyond the Terminal
