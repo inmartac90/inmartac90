@@ -39,6 +39,30 @@ skills:
       - ServiceNow
       - Jira
 
+# Featured projects
+projects:
+  cloud:
+    - name: AWS Three-Tier Architecture with Terraform
+      url: https://github.com/inmartac90/aws-three-tier-terraform
+      desc: "Multi-AZ VPC, ALB, Auto Scaling and RDS with CloudWatch observability and least-privilege IAM (in progress)"
+  other:
+    - name: Cloud Engineer Portfolio
+      url: https://inmartac.dev
+      desc: "Next.js portfolio deployed on Vercel with a custom domain"
+
+# Certifications
+certifications:
+  - name: AWS Certified AI Practitioner
+    status: Sep 2026
+    completed: true
+  - name: LogicMonitor Certified Professional (LMCP)
+    status: Certified
+    completed: true
+  - name: AWS Certified Cloud Practitioner
+    status: Scheduled · Nov 2026
+  - name: AWS Certified Solutions Architect – Associate
+    status: In preparation · 2027
+
 # Social Links
 socials:
   portfolio: https://inmartac.dev

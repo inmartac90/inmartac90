@@ -21,6 +21,22 @@ Former AWS Cloud Support Engineer, LogicMonitor Certified Professional (LMCP), a
 ![RCA](https://img.shields.io/badge/Root%20Cause%20Analysis-DC3545?style=flat) ![IR](https://img.shields.io/badge/Incident%20Response-FF6B6B?style=flat) ![SNMP](https://img.shields.io/badge/SNMP-4B8BBE?style=flat) ![WMI](https://img.shields.io/badge/WMI%2FWinRM-0078D4?style=flat) ![ServiceNow](https://img.shields.io/badge/ServiceNow-00B050?style=flat) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
 
 ---
+## 📦 Featured Projects
+
+### ☁️ Cloud & Infrastructure
+- **[AWS Three-Tier Architecture with Terraform](https://github.com/inmartac90/aws-three-tier-terraform)** — Multi-AZ VPC, ALB, Auto Scaling and RDS with CloudWatch observability and least-privilege IAM (in progress)
+
+### 💼 Other Projects
+- **[Cloud Engineer Portfolio](https://inmartac.dev)** — Next.js portfolio deployed on Vercel with a custom domain
+
+---
+## 🎓 Certifications
+- ✅ **AWS Certified AI Practitioner** — Sep 2026
+- ✅ **LogicMonitor Certified Professional (LMCP)** — Certified
+- ⏳ **AWS Certified Cloud Practitioner** — Scheduled · Nov 2026
+- ⏳ **AWS Certified Solutions Architect – Associate** — In preparation · 2027
+
+---
  
 ## 🌐 Find Me Online
  
