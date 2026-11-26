@@ -1,6 +1,6 @@
 # Profile Configuration - Indra Martínez
 name: Indra Martínez
-title: Cloud & Cybersecurity Professional
+title: Cloud & Observability Engineer
 location: 🇲🇽 Mexico City
 bio: Former AWS Cloud Support Engineer, LogicMonitor Certified Professional (LMCP), and Cybersecurity student at UVM
 
@@ -41,8 +41,9 @@ skills:
 
 # Social Links
 socials:
-  portfolio: https://cvweb-nextjs.vercel.app
-  linkedin: https://www.linkedin.com/in/indramartineza/
+  portfolio: https://inmartac.dev
+  linkedin: https://www.linkedin.com/in/inmartac
+  email: indra@inmartac.dev
   linktree: https://linktr.ee/inmartac
 
 # Personal interests
