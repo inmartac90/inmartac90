@@ -61,17 +61,6 @@ if 'focus' in profile and profile['focus']:
     for focus in profile['focus']:
         readme += f"- {focus}\n"
  
-# Add certifications if they exist
-if 'certifications' in profile and profile['certifications']:
-    readme += "\n---\n## 🎓 AWS Certification Roadmap\n"
-    for cert in profile['certifications']:
-        progress = cert.get('progress', 0)
-        filled = '█' * progress
-        empty = '░' * (10 - progress)
-        status = '✅' if cert.get('completed', False) else '⏳'
-        readme += f"- {status} **{cert['name']}**\n"
-        readme += f"  Progress: `{filled}{empty}` {progress}%\n"
- 
 # Add projects if they exist
 if 'projects' in profile and profile['projects']:
     readme += "\n---\n## 📦 Featured Projects\n"
@@ -93,6 +82,14 @@ if 'projects' in profile and profile['projects']:
         readme += "\n### 💼 Other Projects\n"
         for project in profile['projects']['other']:
             readme += f"- **[{project['name']}]({project['url']})** — {project['desc']}\n"
+ 
+# Add certifications if they exist
+if 'certifications' in profile and profile['certifications']:
+    readme += "\n---\n## 🎓 Certifications\n"
+    for cert in profile['certifications']:
+        status = '✅' if cert.get('completed', False) else '⏳'
+        detail = f" — {cert['status']}" if cert.get('status') else ''
+        readme += f"- {status} **{cert['name']}**{detail}\n"
  
 # Add social links and footer
 readme += f"""
